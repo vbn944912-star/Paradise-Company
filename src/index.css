@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Tajawal:wght@300;400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", "Tajawal", system-ui, -apple-system, sans-serif;
+  --font-cairo: "Cairo", "Tajawal", system-ui, -apple-system, sans-serif;
+  --font-tajawal: "Tajawal", "Cairo", system-ui, -apple-system, sans-serif;
+  
+  --color-brand-navy: #0B1F35;
+  --color-brand-navy-light: #163252;
+  --color-brand-gold: #D4AF37;
+  --color-brand-gold-dark: #B89324;
+  --color-brand-gold-light: #F7E3A2;
+  --color-slate-light: #F5F7FA;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-cairo);
+  }
+  
+  body {
+    background-color: #FFFFFF;
+    color: #0B1F35;
+    overflow-x: hidden;
+  }
+
+  /* Support custom smooth focus with golden ring */
+  *:focus-visible {
+    outline: 2px solid var(--color-brand-gold);
+    outline-offset: 2px;
+  }
+}
+
+/* Custom styled scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F7FA;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B89324;
+}

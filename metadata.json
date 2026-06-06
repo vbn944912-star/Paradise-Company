@@ -1,0 +1,6 @@
+{
+  "name": "شركة الجنة للخدمات والنظافة",
+  "description": "الموقع الرسمي التفاعلي لشركة الجنة لخدمات النظافة والتعقيم الفاخرة للفلل والمكاتب والمنازل بالقاهرة الكبرى مع حاسبة تكلفة فورية وحجز مباشر.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

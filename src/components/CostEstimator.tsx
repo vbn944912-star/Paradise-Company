@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { SERVICES, ADD_ONS, REGIONS, TELEPHONE } from "../constants";
 import Icon, { IconName } from "./Icon";

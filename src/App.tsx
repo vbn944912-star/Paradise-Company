@@ -8,6 +8,7 @@ import Stats from "./components/Stats";
 import Testimonials from "./components/Testimonials";
 import CoverageArea from "./components/CoverageArea";
 import WorkingHours from "./components/WorkingHours";
+import Gallery from "./components/Gallery";
 import CostEstimator from "./components/CostEstimator";
 import Footer from "./components/Footer";
 import Icon from "./components/Icon";
@@ -42,6 +43,9 @@ export default function App() {
 
         {/* Dynamic Metric Numbers Counters Banner */}
         <Stats />
+
+        {/* Before & After Interactive Gallery */}
+        <Gallery onSelectService={handleSelectService} />
 
         {/* Real-time Responsive Interactive Cost Calculator & Lead Builder Form */}
         <CostEstimator selectedServiceId={selectedServiceId} />

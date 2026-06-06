@@ -27,7 +27,10 @@ import {
   ArrowLeft,
   Percent,
   CheckCircle2,
-  PhoneCall
+  PhoneCall,
+  ChevronLeft,
+  ChevronRight,
+  Pointer
 } from "lucide-react";
 
 const iconsMap = {
@@ -59,7 +62,10 @@ const iconsMap = {
   ArrowLeft,
   Percent,
   CheckCircle2,
-  PhoneCall
+  PhoneCall,
+  ChevronLeft,
+  ChevronRight,
+  Pointer
 };
 
 export type IconName = keyof typeof iconsMap;
@@ -68,6 +74,7 @@ interface IconProps {
   name: IconName;
   className?: string;
   size?: number;
+  key?: any;
 }
 
 export default function Icon({ name, className = "", size }: IconProps) {

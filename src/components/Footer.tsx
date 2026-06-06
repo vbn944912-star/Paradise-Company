@@ -90,6 +90,7 @@ export default function Footer() {
               <a href="#hero" className="hover:text-brand-gold transition-colors">الرئيسية</a>
               <a href="#about" className="hover:text-brand-gold transition-colors">من نحن</a>
               <a href="#services" className="hover:text-brand-gold transition-colors">خدماتنا وخطوات العمل</a>
+              <a href="#gallery" className="hover:text-brand-gold transition-colors">معرض أعمالنا (قبل وبعد)</a>
               <a href="#advantages" className="hover:text-brand-gold transition-colors">لماذا يختارنا العملاء</a>
               <a href="#testimonials" className="hover:text-brand-gold transition-colors">آراء العملآء الموثقين</a>
               <a href="#coverage" className="hover:text-brand-gold transition-colors">مناطق التغطية</a>

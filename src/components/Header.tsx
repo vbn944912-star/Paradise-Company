@@ -19,6 +19,7 @@ export default function Header() {
     { label: "الرئيسية", href: "#hero" },
     { label: "من نحن", href: "#about" },
     { label: "خدماتنا", href: "#services" },
+    { label: "قبل وبعد", href: "#gallery" },
     { label: "لماذا يختارنا العملاء", href: "#advantages" },
     { label: "آراء العملآء", href: "#testimonials" },
     { label: "مناطق الخدمة", href: "#coverage" },

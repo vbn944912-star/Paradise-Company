@@ -3,7 +3,9 @@ import { CleaningService, AddOnOption, Testimonial, Region } from "./types";
 export const IMAGES = {
   logo: "/src/assets/images/aljannah_logo_1780746390043.png",
   villaHero: "/src/assets/images/luxury_villas_clean_1780746406187.png",
-  cleanersTeam: "/src/assets/images/cleaners_team_1780746419439.png"
+  cleanersTeam: "/src/assets/images/cleaners_team_1780746419439.png",
+  kitchenHero: "/src/assets/images/luxury_kitchen_clean_1780748614526.png",
+  marbleHero: "/src/assets/images/polished_marble_1780748629991.png"
 };
 
 export const TELEPHONE = "01157139355";
